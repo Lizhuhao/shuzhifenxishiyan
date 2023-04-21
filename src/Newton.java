@@ -62,7 +62,6 @@ public class Newton {
             for (int j = 0; j < n-i-1; j++) {
                 //a[j][i+2]=(a[j][i+1]-a[j+1+i][i+1])/(x[j]-x[j+1+i]);
                 a[j][i+2]=(a[j][i+1]-a[j+1][i+1])/(x[j]-x[j+1+i]);
-                System.out.println("shuhcs");
             }
         }
         return a;
